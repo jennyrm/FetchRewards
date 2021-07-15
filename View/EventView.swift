@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct EventView: View {
-    var event: Object
-    var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Text(event.type)
-                .font(.title2)
-                .fontWeight(.heavy)
-                .foregroundColor(.black)
-        }
-    }
-}
+//struct EventView: View {
+//    var event: EventModel
+//    var body: some View {
+//        VStack(alignment: .leading, spacing: 10) {
+//            Text(event.type)
+//                .font(.title2)
+//                .fontWeight(.heavy)
+//                .foregroundColor(.black)
+//        }
+//    }
+//}

@@ -17,15 +17,15 @@ struct Home: View {
                     .onAppear {
                         jsonModel.fetchData()
                     }
-            } else {
-                List(jsonModel.object,id: \.self) { event in
-                    //display fetched JSON data...
-                    EventView(event: event)
-                }
-                .listStyle(InsetGroupedListStyle())
+//            } else {
+//                List(jsonModel.events,id: \.self) { event in
+//                    //display fetched JSON data...
+//                    EventView(event: event)
+//                }
+//                .listStyle(InsetGroupedListStyle())
             }
         }
-        .navigationTitle("Fetched JSON")
-        .navigationBarTitleDisplayMode(.inline)
+//        .navigationTitle("Fetched JSON")
+//        .navigationBarTitleDisplayMode(.inline)
     }
 }
